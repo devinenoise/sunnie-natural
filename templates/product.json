@@ -56,7 +56,7 @@
             "heading": "Drug Facts",
             "icon": "eye",
             "content": "",
-            "drugfacts_image": "shopify:\/\/shop_images\/sunnie-product-redness-facts.png",
+            "drugfacts_image": "{{ product.metafields.my_fields.ingredients.value }}",
             "page": ""
           }
         },
