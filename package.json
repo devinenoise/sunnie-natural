@@ -1,0 +1,21 @@
+{
+  "name": "sunnie-drops-dawn",
+  "version": "1.0.0",
+  "description": "Custom Shopify Theme For Sunnie Drops on Dawn",
+  "main": "index.js",
+  "scripts": {
+    "login": "shopify login --store=sunnie-natural.myshopify.com",
+    "start": "npm run login && shopify theme serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devinenoise/sunnie-drops-dawn.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/devinenoise/sunnie-drops-dawn/issues"
+  },
+  "homepage": "https://github.com/devinenoise/sunnie-drops-dawn#readme"
+}
