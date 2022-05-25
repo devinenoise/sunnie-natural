@@ -260,6 +260,25 @@
                 </div>
               </details>
             </div>
+            <div class="drug-facts-container">
+                    {% if block.settings.drugfacts_image != blank %}
+                      <img
+                    srcset="{%- if block.settings.drugfacts_image.width >= 165 -%}{{ block.settings.drugfacts_image | image_url: width: 165 }} 165w,{%- endif -%}
+                      {%- if block.settings.drugfacts_image.width >= 360 -%}{{ block.settings.drugfacts_image | image_url: width: 360 }} 360w,{%- endif -%}
+                      {%- if block.settings.drugfacts_image.width >= 535 -%}{{ block.settings.drugfacts_image | image_url: width: 535 }} 535w,{%- endif -%}
+                      {%- if block.settings.drugfacts_image.width >= 750 -%}{{ block.settings.drugfacts_image | image_url: width: 750 }} 750w,{%- endif -%}
+                      {%- if block.settings.drugfacts_image.width >= 1070 -%}{{ block.settings.drugfacts_image | image_url: width: 1070 }} 1070w,{%- endif -%}
+                      {%- if block.settings.drugfacts_image.width >= 1500 -%}{{ block.settings.drugfacts_image | image_url: width: 1500 }} 1500w,{%- endif -%}
+                      {{ block.settings.drugfacts_image | image_url }} {{ block.settings.drugfacts_image.width }}w"
+                    src="{{ block.settings.drugfacts_image | image_url: width: 1500 }}"
+                    sizes="(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
+                    alt="{{ block.settings.drugfacts_image.alt | escape }}"
+                    loading="lazy"
+                    width="{{ block.settings.drugfacts_image.width }}"
+                    height="{{ block.settings.drugfacts_image.height }}"
+                  >
+                  {%- endif -%}
+                </div>
           {%- when 'quantity_selector' -%}
             <div class="product-form__input product-form__quantity{% if settings.inputs_shadow_vertical_offset != 0 and settings.inputs_shadow_vertical_offset < 0 %} product-form__quantity-top{% endif %}" {{ block.shopify_attributes }}>
               <label class="form__label" for="Quantity-{{ section.id }}">
@@ -951,6 +970,11 @@
         {
           "type": "richtext",
           "id": "content",
+          "label": "t:sections.main-product.blocks.collapsible_tab.settings.content.label"
+        },
+        {
+          "type": "image_picker",
+          "id": "drugfacts_image",
           "label": "t:sections.main-product.blocks.collapsible_tab.settings.content.label"
         },
         {
