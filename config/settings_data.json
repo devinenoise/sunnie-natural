@@ -139,32 +139,24 @@
               "menu": "footer"
             }
           },
-          "footer-1": {
-            "type": "link_list",
+          "f0682f66-a6a9-46d7-8b83-a45192db032b": {
+            "type": "image",
             "disabled": true,
             "settings": {
-              "heading": "Info",
-              "menu": "footer"
-            }
-          },
-          "footer-2": {
-            "type": "text",
-            "disabled": true,
-            "settings": {
-              "heading": "Our mission",
-              "subtext": "<p>Share contact information, store details, and brand content with your customers.<\/p>"
+              "image": "shopify:\/\/shop_images\/sunnie-website-healingeye-3_f2d575b4-5831-4bfa-b93f-74ba921f8346.png",
+              "image_width": 100,
+              "alignment": "center"
             }
           }
         },
         "block_order": [
           "footer-0",
-          "footer-1",
-          "footer-2"
+          "f0682f66-a6a9-46d7-8b83-a45192db032b"
         ],
         "settings": {
           "color_scheme": "background-1",
           "newsletter_enable": true,
-          "newsletter_heading": "Subscribe to our emails",
+          "newsletter_heading": "",
           "show_social": true,
           "enable_country_selector": false,
           "enable_language_selector": false,
