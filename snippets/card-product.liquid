@@ -109,8 +109,10 @@
               {{ card_product.title | escape }}
             </a>
           </h3>
-          <div class="featured-collection-desc">
-              {{ card_product.description }}
+          </div>
+          <div>
+              <p class="featured-collection-desc">{{ card_product.description }}</p>
+              <p class="featured-collection-desc__doctor">{{ card_product.metafields.my_fields.doctor_recommended }}</p>
           </div>
           <div class="card-information">
             {%- if show_vendor -%}

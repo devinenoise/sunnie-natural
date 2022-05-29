@@ -155,7 +155,7 @@ button.shopify-payment-button__button,
 }
 
 .product__text {
-  color: #f6df81;
+  color: var(--yellow);
 }
 
 .multicolumn-card__info h3,
@@ -176,9 +176,13 @@ button.shopify-payment-button__button,
   display: none;
 }
 
-.featured-collection-desc {
+.card__information .varint_cu {
   font-family: 'Gotham Rounded';
-  font-size: 12px;
+  color: var(--green);
+}
+
+.featured-collection-desc__doctor {
+  color: var(--yellow);
 }
 
 .card__heading {
