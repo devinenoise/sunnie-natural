@@ -39,7 +39,7 @@
         "collapsible-row-0": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Drug Facts",
+            "heading": "INGREDIENTS",
             "icon": "eye",
             "content": "",
             "drugfacts_image": "{{ product.metafields.my_fields.ingredients.value }}",
