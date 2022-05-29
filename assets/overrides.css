@@ -162,7 +162,8 @@ button.shopify-payment-button__button,
   color: #f6df81;
 }
 
-.multicolumn-card__info h3 {
+.multicolumn-card__info h3,
+.accordion__title {
   font-family: 'Gotham Rounded';
 }
 
@@ -173,4 +174,8 @@ button.shopify-payment-button__button,
 .product__description > .varint_cu:first-of-type {
   color: var(--green);
   font-size: 16px;
+}
+
+.header__icon--search {
+  display: none;
 }
