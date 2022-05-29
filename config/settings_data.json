@@ -1,15 +1,15 @@
 {
   "current": {
-    "colors_solid_button_labels": "#ffffff",
-    "colors_accent_1": "#121212",
+    "colors_solid_button_labels": "#121212",
+    "colors_accent_1": "#ffffff",
     "gradient_accent_1": "",
     "colors_accent_2": "#334fb4",
     "gradient_accent_2": "",
-    "colors_text": "#121212",
+    "colors_text": "#fcf9ec",
     "colors_outline_button_labels": "#121212",
-    "colors_background_1": "#ffffff",
+    "colors_background_1": "#fcf9ec",
     "gradient_background_1": "",
-    "colors_background_2": "#f3f3f3",
+    "colors_background_2": "#26544d",
     "gradient_background_2": "",
     "type_header_font": "century_gothic_n4",
     "heading_scale": 100,
@@ -118,7 +118,7 @@
       "header": {
         "type": "header",
         "settings": {
-          "color_scheme": "background-1",
+          "color_scheme": "accent-1",
           "logo": "shopify:\/\/shop_images\/sunnie-website-healingeye-3_f2d575b4-5831-4bfa-b93f-74ba921f8346.png",
           "logo_width": 90,
           "logo_position": "middle-left",
