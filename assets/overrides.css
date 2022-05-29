@@ -117,10 +117,21 @@
 .our-story,
 .medical,
 .contact-us,
-.contact-us section {
+.contact-us section,
+.product-template,
+.product-form__submit,
+button.shopify-payment-button__button {
   background-color: white;
+}
+
+button.shopify-payment-button__button {
+  border: 1px solid black;
 }
 
 .contact {
   margin-top: 16rem;
+}
+
+.product__text {
+  color: #f6df81;
 }

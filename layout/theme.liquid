@@ -218,7 +218,7 @@
 
     {% section 'announcement-bar' %}
     {% section 'header' %}
-    <main id="MainContent" class="{{ page.title | handle }} content-for-layout focus-none" role="main" tabindex="-1">
+    <main id="MainContent" class="{{ page.title | handle }} {{ template }}-template content-for-layout focus-none" role="main" tabindex="-1">
       {{ content_for_layout }}
     </main>
 
