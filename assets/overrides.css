@@ -194,7 +194,7 @@ button.shopify-payment-button__button,
   margin-bottom: 30px;
 }
 
-.rich-text__text p:nth-of-type(6) {
+.our-story .rich-text__text p:nth-of-type(6) {
   color: var(--green);
 }
 
