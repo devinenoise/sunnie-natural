@@ -13,6 +13,19 @@
   font-size: 32px;
 }
 
+.image-with-text__heading.h0 {
+  color: black;
+  font-family: 'mondeurregular';
+}
+
+.medical .rich-text__blocks {
+  font-size: 24px;
+}
+
+.image-with-text__text.rte.subtitle p {
+  font-family: 'Gotham Rounded';
+}
+
 .header-wrapper {
   background-color: white;
 }
@@ -95,4 +108,19 @@
 .newsletter-form__field-wrapper label,
 .newsletter-form__button.field__button {
   color: var(--cream);
+}
+
+.announcement-bar__message {
+  font-family: 'Gotham Rounded';
+}
+
+.our-story,
+.medical,
+.contact-us,
+.contact-us section {
+  background-color: white;
+}
+
+.contact {
+  margin-top: 16rem;
 }
