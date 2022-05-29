@@ -124,8 +124,13 @@ button.shopify-payment-button__button {
   background-color: white;
 }
 
-button.shopify-payment-button__button {
+button.shopify-payment-button__button,
+.product-form__submit {
   border: 1px solid black;
+}
+
+.product-template .card__information {
+  display: none;
 }
 
 .contact {

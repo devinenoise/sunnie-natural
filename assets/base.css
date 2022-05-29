@@ -1392,7 +1392,7 @@ button.shopify-payment-button__button--unbranded {
   box-shadow: 0 0 0 calc(var(--buttons-border-width) + var(--border-offset))
       rgba(var(--color-button-text), var(--border-opacity)),
     0 0 0 calc(var(--buttons-border-width) + 1px)
-      rgba(var(--color-button), var(--alpha-button-background));
+      rgba(var(--color-button-text), var(--alpha-button-background));
 }
 
 .button--secondary:after {
@@ -2362,10 +2362,6 @@ input[type='checkbox'] {
 }
 
 @media screen and (min-width: 990px) {
-  .header__heading-link {
-    margin-left: -0.75rem;
-  }
-
   .header__heading,
   .header__heading-link {
     justify-self: start;
