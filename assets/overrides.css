@@ -117,15 +117,21 @@
 .our-story,
 .medical,
 .contact-us,
+.cart-template,
 .contact-us section,
 .product-template,
+.collection-template,
 .product-form__submit,
-button.shopify-payment-button__button {
+button.shopify-payment-button__button,
+.cart__checkout-button,
+.cart__warnings .button {
   background-color: white;
 }
 
 button.shopify-payment-button__button,
-.product-form__submit {
+.product-form__submit,
+.cart__checkout-button,
+.cart__warnings .button {
   border: 1px solid black;
 }
 
@@ -139,4 +145,12 @@ button.shopify-payment-button__button,
 
 .product__text {
   color: #f6df81;
+}
+
+.multicolumn-card__info h3 {
+  font-family: 'Gotham Rounded';
+}
+
+.multicolumn-card__info .rte p {
+  text-transform: uppercase;
 }
