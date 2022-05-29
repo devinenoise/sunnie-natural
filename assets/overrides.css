@@ -150,10 +150,6 @@ button.shopify-payment-button__button,
   border: 1px solid black;
 }
 
-.product-template .card__information {
-  display: none;
-}
-
 .contact {
   margin-top: 16rem;
 }
