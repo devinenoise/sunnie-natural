@@ -126,7 +126,7 @@
         "settings": {
           "color_scheme": "accent-1",
           "logo": "shopify:\/\/shop_images\/sunnie-website-healingeye-3_f2d575b4-5831-4bfa-b93f-74ba921f8346.png",
-          "logo_width": 90,
+          "logo_width": 100,
           "logo_position": "middle-left",
           "menu": "main-menus",
           "menu_type_desktop": "dropdown",
@@ -149,7 +149,7 @@
             "type": "image",
             "settings": {
               "image": "shopify:\/\/shop_images\/sunnie-ecommerce-website-images-footerlogo.png",
-              "image_width": 100,
+              "image_width": 150,
               "alignment": "center"
             }
           }
