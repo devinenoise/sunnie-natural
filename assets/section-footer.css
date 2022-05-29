@@ -121,7 +121,6 @@
   flex-wrap: wrap;
   justify-content: center;
   align-items: flex-end;
-  margin-top: 3rem;
 }
 
 .footer-block--newsletter:only-child {
@@ -162,10 +161,6 @@
   display: none;
 }
 
-.footer__list-social.list-social:only-child {
-  justify-content: center;
-}
-
 .footer-block__newsletter {
   text-align: center;
 }
@@ -194,11 +189,6 @@
   margin-top: 3rem;
 }
 
-@media screen and (max-width: 749px) {
-  .footer__list-social.list-social {
-    justify-content: center;
-  }
-}
 
 @media screen and (min-width: 750px) {
   .footer-block__newsletter + .footer__list-social {

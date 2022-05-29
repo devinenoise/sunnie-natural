@@ -15,12 +15,18 @@
 }
 
 @font-face {
-  font-family: 'Gotham Rounded';
+  font-family: 'Gotham Rounded Bold';
   src: url('GothamRounded-Bold.woff2') format('woff2'),
     url('GothamRounded-Bold.woff') format('woff');
   font-weight: bold;
   font-style: normal;
-  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Gotham Rounded Light';
+  src: url('GothamRounded-Light.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
 }
 
 @font-face {
@@ -29,15 +35,6 @@
     url('GothamRounded-Medium.woff') format('woff');
   font-weight: 500;
   font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Gotham Rounded';
-  src: url('GothamRounded-Light.woff2') format('woff2');
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
 }
 
 :root {
@@ -2302,9 +2299,9 @@ input[type='checkbox'] {
   }
 
   .header--middle-left {
-    grid-template-areas: 'heading navigation icons';
+    grid-template-areas: 'navigation heading icons';
     grid-template-columns: auto auto 1fr;
-    column-gap: 2rem;
+    column-gap: 14rem;
   }
 
   .header--top-center {
