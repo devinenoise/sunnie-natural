@@ -139,17 +139,8 @@
               "menu": "footer"
             }
           },
-          "4725613d-e8e8-4279-9763-a3015dec3dda": {
-            "type": "link_list",
-            "disabled": true,
-            "settings": {
-              "heading": "Quick links",
-              "menu": "footer"
-            }
-          },
           "f0682f66-a6a9-46d7-8b83-a45192db032b": {
             "type": "image",
-            "disabled": true,
             "settings": {
               "image": "shopify:\/\/shop_images\/sunnie-ecommerce-website-images-footerlogo.png",
               "image_width": 100,
@@ -159,7 +150,6 @@
         },
         "block_order": [
           "footer-0",
-          "4725613d-e8e8-4279-9763-a3015dec3dda",
           "f0682f66-a6a9-46d7-8b83-a45192db032b"
         ],
         "settings": {
