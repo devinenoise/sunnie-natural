@@ -8,16 +8,16 @@
           "settings": {
           }
         },
+        "description": {
+          "type": "description",
+          "settings": {
+          }
+        },
         "caption": {
           "type": "text",
           "settings": {
             "text": "{{ product.metafields.my_fields.doctor_recommended.value }}",
             "text_style": "body"
-          }
-        },
-        "description": {
-          "type": "description",
-          "settings": {
           }
         },
         "price": {
@@ -55,8 +55,8 @@
       },
       "block_order": [
         "title",
-        "caption",
         "description",
+        "caption",
         "price",
         "quantity_selector",
         "buy_buttons",
