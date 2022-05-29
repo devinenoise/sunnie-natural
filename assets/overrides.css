@@ -179,3 +179,21 @@ button.shopify-payment-button__button,
 .header__icon--search {
   display: none;
 }
+
+.featured-collection-desc {
+  font-family: 'Gotham Rounded';
+  font-size: 12px;
+}
+
+.card__heading {
+  font-size: 24px;
+}
+
+.quick-add form {
+  width: 150px;
+  margin-top: 20px;
+}
+
+.card__heading {
+  margin-bottom: 30px;
+}
