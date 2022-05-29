@@ -92,10 +92,16 @@
     "social_snapchat_link": "",
     "social_youtube_link": "",
     "social_vimeo_link": "",
-    "predictive_search_enabled": true,
+    "predictive_search_enabled": false,
     "predictive_search_show_vendor": false,
     "predictive_search_show_price": false,
+    "favicon": "shopify:\/\/shop_images\/sunnie-website-healingeye-3_29e403b4-ff78-4eeb-88a9-32571ba3a8f4.png",
     "currency_code_enabled": false,
+    "checkout_logo_image": "shopify:\/\/shop_images\/sunnie-ecommerce-website-images-footerlogo.png",
+    "checkout_body_background_color": "#26544d",
+    "checkout_sidebar_background_color": "#fcf9ec",
+    "checkout_accent_color": "#121212",
+    "checkout_button_color": "#121212",
     "sections": {
       "announcement-bar": {
         "type": "announcement-bar",
