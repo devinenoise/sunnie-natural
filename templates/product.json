@@ -51,13 +51,6 @@
           "settings": {
             "share_label": "Share"
           }
-        },
-        "37a72e7a-9dab-48ac-a5e9-a257c65d42c9": {
-          "type": "text",
-          "settings": {
-            "text": "Text block",
-            "text_style": "body"
-          }
         }
       },
       "block_order": [
@@ -68,8 +61,7 @@
         "quantity_selector",
         "buy_buttons",
         "collapsible-row-0",
-        "share",
-        "37a72e7a-9dab-48ac-a5e9-a257c65d42c9"
+        "share"
       ],
       "settings": {
         "enable_sticky_info": true,
@@ -147,9 +139,9 @@
         "show_description": false,
         "description_style": "body",
         "collection": "frontpage",
-        "products_to_show": 2,
-        "columns_desktop": 2,
-        "full_width": true,
+        "products_to_show": 3,
+        "columns_desktop": 3,
+        "full_width": false,
         "show_view_all": false,
         "view_all_style": "solid",
         "enable_desktop_slider": false,
@@ -171,8 +163,8 @@
       "settings": {
         "heading": "More Products",
         "heading_size": "h1",
-        "products_to_show": 2,
-        "columns_desktop": 2,
+        "products_to_show": 5,
+        "columns_desktop": 3,
         "color_scheme": "accent-2",
         "image_ratio": "square",
         "show_secondary_image": false,
