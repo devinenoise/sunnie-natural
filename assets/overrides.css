@@ -120,18 +120,33 @@
 .cart-template,
 .contact-us section,
 .product-template,
+.customers-login-template,
+.customers-register-template,
 .collection-template,
 .product-form__submit,
+.quick-add__submit,
 button.shopify-payment-button__button,
 .cart__checkout-button,
-.cart__warnings .button {
+.cart__warnings .button,
+.customer.login button,
+#RecoverEmail,
+#CustomerEmail,
+#CustomerPassword,
+#RegisterForm-FirstName,
+#RegisterForm-LastName,
+#RegisterForm-email,
+#RegisterForm-password,
+.customer.register button {
   background-color: white;
 }
 
 button.shopify-payment-button__button,
 .product-form__submit,
 .cart__checkout-button,
-.cart__warnings .button {
+.cart__warnings .button,
+.quick-add__submit,
+.customer.login button,
+.customer.register button {
   border: 1px solid black;
 }
 
@@ -153,4 +168,9 @@ button.shopify-payment-button__button,
 
 .multicolumn-card__info .rte p {
   text-transform: uppercase;
+}
+
+.product__description > .varint_cu:first-of-type {
+  color: var(--green);
+  font-size: 16px;
 }
