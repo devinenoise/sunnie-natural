@@ -193,3 +193,16 @@ button.shopify-payment-button__button,
 .card__heading {
   margin-bottom: 30px;
 }
+
+.rich-text__text p:nth-of-type(6) {
+  color: var(--green);
+}
+
+.our-story .rich-text__blocks {
+  line-height: 3;
+  max-width: 90rem;
+}
+
+.our-story p {
+  font-weight: 500;
+}
