@@ -2,13 +2,53 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "1653796871d5120b4d": {
+      "type": "rich-text",
+      "blocks": {
+        "165379687140a7fe96-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Our Story",
+            "heading_size": "h1"
+          }
+        },
+        "165379687140a7fe96-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p><\/p><p>SUNNIE NATURAL IS A CALIFORNIA BASED HEALTH AND LIFESTYLE COMPANY FOCUSED ON IMPROVING YOUR QUALITY OF LIFE THROUGH THE COMBINATION OF NATURAL RESOURCES AND PROVEN RESEARCH<\/p><p>THERE IS ONE THING WE KNOW FOR SURE, NATURE ALWAYS HAS THE ANSWER<\/p><p>A BEAUTIFUL HEALTH & WELLNESS AWAKENING IS HAPPENING AND IS SLOWLY CHANGING EVERY NUANCE OF MODERN DAY LIFE<\/p><p>DAILY EYE HEALTH & SUPPORT HAVE BEEN LONG OVERLOOKED (PUN INTENDED)<\/p><p>WE AT SUNNIE ARE DETERMINED TO CHANGE THE WORLD WE SEE, ONE EYE AT A TIME<\/p><p>SUNNIE WAS FOUNDED WITH A SIMPLE IDEA:<\/p><p>USE ALL NATURAL INGREDIENTS FOR ALL NATURAL EYES<\/p><p>SUNNIE ALL NATURAL EYE DROPS ARE CRAFTED WITH 100% PLANT-BASED INGREDIENTS THAT ARE GREAT FOR YOUR EYES AND SAFE FOR EVERYDAY USE<\/p>"
+          }
+        },
+        "165379687140a7fe96-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "165379687140a7fe96-0",
+        "165379687140a7fe96-1",
+        "165379687140a7fe96-2"
+      ],
+      "settings": {
+        "color_scheme": "accent-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "1653796871d5120b4d"
   ]
 }
