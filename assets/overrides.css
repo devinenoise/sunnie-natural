@@ -1,3 +1,13 @@
+:root {
+  --cream: #fcf9ec;
+  --green: #26544d;
+  --yellow: #f6df81;
+}
+
+#menu-drawer {
+  background-color: white;
+}
+
 .image-with-text__content {
   color: var(--cream);
 }
