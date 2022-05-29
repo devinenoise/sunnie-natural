@@ -13,6 +13,7 @@
       "blocks": {
         "165379687140a7fe96-0": {
           "type": "heading",
+          "disabled": true,
           "settings": {
             "heading": "Our Story",
             "heading_size": "h1"
