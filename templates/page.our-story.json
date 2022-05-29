@@ -36,54 +36,10 @@
         "padding_top": 100,
         "padding_bottom": 100
       }
-    },
-    "16538146644e055a64": {
-      "type": "rich-text",
-      "disabled": true,
-      "blocks": {
-        "16538146642ada072c-1": {
-          "type": "text",
-          "settings": {
-            "text": ""
-          }
-        }
-      },
-      "block_order": [
-        "16538146642ada072c-1"
-      ],
-      "settings": {
-        "color_scheme": "accent-2",
-        "full_width": true,
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
-    "1653814694d9c47910": {
-      "type": "rich-text",
-      "disabled": true,
-      "blocks": {
-        "1653814694c0a4765e-1": {
-          "type": "text",
-          "settings": {
-            "text": ""
-          }
-        }
-      },
-      "block_order": [
-        "1653814694c0a4765e-1"
-      ],
-      "settings": {
-        "color_scheme": "accent-2",
-        "full_width": true,
-        "padding_top": 0,
-        "padding_bottom": 52
-      }
     }
   },
   "order": [
     "main",
-    "1653796871d5120b4d",
-    "16538146644e055a64",
-    "1653814694d9c47910"
+    "1653796871d5120b4d"
   ]
 }
