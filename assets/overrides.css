@@ -1,0 +1,38 @@
+.image-with-text__content {
+  color: var(--cream);
+}
+
+.image-with-text__heading {
+  color: var(--cream);
+  font-family: 'Gotham Rounded';
+  font-weight: 400;
+}
+
+.image-with-text p {
+  font-family: 'mondeurregular';
+  font-size: 32px;
+}
+
+.header-wrapper {
+  background-color: white;
+}
+
+.collection h2,
+.multicolumn h2 {
+  text-align: center;
+}
+
+.footer .footer__content-top,
+.link.link--text.list-menu__item.list-menu__item--link {
+  color: var(--cream);
+}
+
+.footer-block__heading {
+  display: none;
+}
+
+.footer-block__details-content {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+}
