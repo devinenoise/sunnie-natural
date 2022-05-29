@@ -22,7 +22,7 @@
         "165379687140a7fe96-1": {
           "type": "text",
           "settings": {
-            "text": "<p>SUNNIE NATURAL IS A CALIFORNIA BASED HEALTH AND LIFESTYLE COMPANY FOCUSED ON IMPROVING YOUR QUALITY OF LIFE THROUGH THE COMBINATION OF NATURAL RESOURCES AND PROVEN RESEARCH<\/p><p>THERE IS ONE THING WE KNOW FOR SURE, NATURE ALWAYS HAS THE ANSWER<\/p><p>A BEAUTIFUL HEALTH & WELLNESS AWAKENING IS HAPPENING AND IS SLOWLY CHANGING EVERY NUANCE OF MODERN DAY LIFE<\/p><p>DAILY EYE HEALTH & SUPPORT HAVE BEEN LONG OVERLOOKED (PUN INTENDED)<\/p><p>WE AT SUNNIE ARE DETERMINED TO CHANGE THE WORLD WE SEE, ONE EYE AT A TIME<\/p><p>SUNNIE WAS FOUNDED WITH A SIMPLE IDEA:<\/p><p>USE ALL NATURAL INGREDIENTS FOR ALL NATURAL EYES<\/p><p>SUNNIE ALL NATURAL EYE DROPS ARE CRAFTED WITH 100% PLANT-BASED INGREDIENTS THAT ARE GREAT FOR YOUR EYES AND SAFE FOR EVERYDAY USE<\/p>"
+            "text": "<p>SUNNIE NATURAL IS A CALIFORNIA BASED HEALTH AND LIFESTYLE COMPANY FOCUSED ON IMPROVING YOUR QUALITY OF LIFE THROUGH THE COMBINATION OF NATURAL RESOURCES AND PROVEN RESEARCH<\/p><p>THERE IS ONE THING WE KNOW FOR SURE, NATURE ALWAYS HAS THE ANSWER<\/p><p>A BEAUTIFUL HEALTH & WELLNESS AWAKENING IS HAPPENING AND IS SLOWLY CHANGING EVERY NUANCE OF MODERN DAY LIFE<\/p><p>DAILY EYE HEALTH & SUPPORT HAVE BEEN LONG OVERLOOKED (PUN INTENDED)<\/p><p>WE AT SUNNIE ARE DETERMINED TO CHANGE THE WORLD WE SEE, ONE EYE AT A TIME<\/p><p><\/p>"
           }
         }
       },
@@ -34,12 +34,54 @@
         "color_scheme": "accent-2",
         "full_width": true,
         "padding_top": 100,
-        "padding_bottom": 100
+        "padding_bottom": 0
+      }
+    },
+    "16538146644e055a64": {
+      "type": "rich-text",
+      "blocks": {
+        "16538146642ada072c-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>SUNNIE WAS FOUNDED WITH A SIMPLE IDEA:<\/p><p><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "16538146642ada072c-1"
+      ],
+      "settings": {
+        "color_scheme": "accent-2",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "1653814694d9c47910": {
+      "type": "rich-text",
+      "blocks": {
+        "1653814694c0a4765e-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>USE ALL NATURAL INGREDIENTS FOR ALL NATURAL EYES<\/p><p>SUNNIE ALL NATURAL EYE DROPS ARE CRAFTED WITH 100% PLANT-BASED INGREDIENTS THAT ARE GREAT FOR YOUR EYES AND SAFE FOR EVERYDAY USE<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1653814694c0a4765e-1"
+      ],
+      "settings": {
+        "color_scheme": "accent-2",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 52
       }
     }
   },
   "order": [
     "main",
-    "1653796871d5120b4d"
+    "1653796871d5120b4d",
+    "16538146644e055a64",
+    "1653814694d9c47910"
   ]
 }
