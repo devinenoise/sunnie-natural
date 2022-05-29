@@ -146,7 +146,8 @@ button.shopify-payment-button__button,
 #RegisterForm-LastName,
 #RegisterForm-email,
 #RegisterForm-password,
-.customer.register button {
+.customer.register button,
+#cart-notification-button {
   background-color: white;
 }
 
@@ -219,4 +220,8 @@ button.shopify-payment-button__button,
 
 .our-story p {
   font-weight: 500;
+}
+
+.cart-notification {
+  background-color: white;
 }
