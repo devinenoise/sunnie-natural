@@ -74,6 +74,62 @@
         "padding_bottom": 36
       }
     },
+    "1653797355885041e6": {
+      "type": "multicolumn",
+      "blocks": {
+        "165379735535f4a53e-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/sunnie-website-healingeye-2_c4b6c257-3436-42d3-980d-6084f14d5dea.png",
+            "title": "STEP 1",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "165379735535f4a53e-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/sunnie-website-healingeye-1_1be6fbc4-7c8d-4864-bc60-57782d028a94.png",
+            "title": "STEP 2",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "165379735535f4a53e-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/sunnie-website-healingeye-3_29e403b4-ff78-4eeb-88a9-32571ba3a8f4.png",
+            "title": "STEP 3",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "165379735535f4a53e-0",
+        "165379735535f4a53e-1",
+        "165379735535f4a53e-2"
+      ],
+      "settings": {
+        "title": "The Healing Process",
+        "heading_size": "h1",
+        "image_width": "third",
+        "image_ratio": "square",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "Button label",
+        "button_link": "",
+        "color_scheme": "accent-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "1653796010f176c8d1": {
       "type": "featured-collection",
       "settings": {
@@ -122,6 +178,7 @@
   },
   "order": [
     "main",
+    "1653797355885041e6",
     "1653796010f176c8d1",
     "product-recommendations"
   ]
