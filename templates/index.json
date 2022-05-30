@@ -62,8 +62,9 @@
         "1653925319c49ffdff-1": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "image": "shopify:\/\/shop_images\/hieyes-icons-everydayuse.png",
+            "title": "SAFE FOR EVERYDAY USE",
+            "text": "",
             "link_label": "",
             "link": ""
           }
