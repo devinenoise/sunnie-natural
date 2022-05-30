@@ -92,8 +92,9 @@
         "a0d4d661-871d-48f2-9253-61286c9cca3b": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "image": "shopify:\/\/shop_images\/hieyes-icons-filter.png",
+            "title": "FILTER REMOVES 100% BACTERIA",
+            "text": "",
             "link_label": "",
             "link": ""
           }
