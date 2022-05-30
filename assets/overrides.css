@@ -225,3 +225,7 @@ button.shopify-payment-button__button,
 .cart-notification {
   background-color: white;
 }
+
+.product__media .media {
+  background-color: white;
+}
