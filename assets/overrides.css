@@ -226,6 +226,6 @@ button.shopify-payment-button__button,
   background-color: white;
 }
 
-.product__media .media {
+.product__media.media {
   background-color: white;
 }
