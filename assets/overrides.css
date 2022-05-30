@@ -229,3 +229,11 @@ button.shopify-payment-button__button,
 .product__media.media {
   background-color: white;
 }
+
+.multicolumn-card__image-wrapper .media {
+  transition: transform 0.3s ease;
+}
+
+.multicolumn-card__image-wrapper .media:hover {
+  transform: translateY(-5px);
+}
